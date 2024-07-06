@@ -1,7 +1,7 @@
-import { readFileSync } from 'fs'
-import { resolve } from 'path'
-import * as YAML from 'yaml'
-import { source } from '../_utils'
+import { readFileSync } from 'node:fs'
+import { resolve } from 'node:path'
+import * as YAML from '../../src/index.ts'
+import { source } from '../_utils.ts'
 
 describe('scalars', () => {
   test('empty block scalar at end of document', () => {

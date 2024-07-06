@@ -1,5 +1,5 @@
-import * as YAML from 'yaml'
-import { source } from '../_utils'
+import * as YAML from '../../src/index.ts'
+import { source } from '../_utils.ts'
 
 describe('tabs as indentation', () => {
   test('fail on map value indented with tab', () => {

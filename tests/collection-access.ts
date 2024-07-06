@@ -9,7 +9,7 @@ import {
   YAMLSet,
   isSeq,
   isMap
-} from 'yaml'
+} from '../src/index.ts'
 
 describe('Map', () => {
   let doc: Document

@@ -14,7 +14,7 @@ import {
   Scalar,
   YAMLMap,
   YAMLSeq
-} from 'yaml'
+} from '../src/index.ts'
 
 for (const { fn, exp } of [
   {

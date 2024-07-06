@@ -1,4 +1,4 @@
-import { LineCounter, parseDocument } from 'yaml'
+import { LineCounter, parseDocument } from '../src/index.ts'
 
 test('Parse error, no newlines', () => {
   const lineCounter = new LineCounter()

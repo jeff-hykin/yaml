@@ -1,5 +1,5 @@
-import { source } from '../_utils'
-import * as YAML from 'yaml'
+import { source } from '../_utils.ts'
+import * as YAML from '../../src/index.ts'
 
 describe('parse comments', () => {
   describe('body', () => {

@@ -1,7 +1,7 @@
 import { readdirSync, readFileSync } from 'fs'
 import { resolve } from 'path'
 
-import { CST, Document, Lexer, parse, parseAllDocuments, Parser } from 'yaml'
+import { CST, Document, Lexer, parse, parseAllDocuments, Parser } from '../src/index.ts'
 import { testEvents } from '../src/test-events' // no public export
 
 type TestCase = {

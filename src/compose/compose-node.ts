@@ -1,14 +1,14 @@
-import type { Directives } from '../doc/directives.js'
-import { Alias } from '../nodes/Alias.js'
-import type { ParsedNode } from '../nodes/Node.js'
-import type { ParseOptions } from '../options.js'
-import type { FlowScalar, SourceToken, Token } from '../parse/cst.js'
-import type { Schema } from '../schema/Schema.js'
-import { composeCollection } from './compose-collection.js'
-import { composeScalar } from './compose-scalar.js'
-import type { ComposeErrorHandler } from './composer.js'
-import { resolveEnd } from './resolve-end.js'
-import { emptyScalarPosition } from './util-empty-scalar-position.js'
+import type { Directives } from "../doc/directives.ts" 
+import { Alias } from "../nodes/Alias.ts" 
+import type { ParsedNode } from "../nodes/Node.ts" 
+import type { ParseOptions } from "../options.ts" 
+import type { FlowScalar, SourceToken, Token } from "../parse/cst.ts" 
+import type { Schema } from "../schema/Schema.ts" 
+import { composeCollection } from "./compose-collection.ts" 
+import { composeScalar } from "./compose-scalar.ts" 
+import type { ComposeErrorHandler } from "./composer.ts" 
+import { resolveEnd } from "./resolve-end.ts" 
+import { emptyScalarPosition } from "./util-empty-scalar-position.ts" 
 
 export interface ComposeContext {
   atRoot: boolean

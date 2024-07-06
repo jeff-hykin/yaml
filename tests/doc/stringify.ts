@@ -1,6 +1,6 @@
-import { source } from '../_utils'
-import * as YAML from 'yaml'
-import { Pair, Scalar } from 'yaml'
+import { source } from '../_utils.ts'
+import * as YAML from '../../src/index.ts'
+import { Pair, Scalar } from '../../src/index.ts'
 
 for (const [name, version] of [
   ['YAML 1.1', '1.1'],

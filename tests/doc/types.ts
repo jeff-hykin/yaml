@@ -14,9 +14,9 @@ import {
   stringify,
   YAMLMap,
   YAMLSeq
-} from 'yaml'
-import { seqTag, stringifyString, stringTag } from 'yaml/util'
-import { source } from '../_utils'
+} from '../../src/index.ts'
+import { seqTag, stringifyString, stringTag } from '../../src/util.ts'
+import { source } from '../_utils.ts'
 
 const parseDocument = <T extends Node = ParsedNode>(
   source: string,

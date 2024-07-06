@@ -1,5 +1,5 @@
-import { source } from '../_utils'
-import { parseAllDocuments } from 'yaml'
+import { source } from '../_utils.ts'
+import { parseAllDocuments } from '../../src/index.ts'
 
 test('Use preceding directives if none defined', () => {
   const src = source`

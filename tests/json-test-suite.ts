@@ -1,8 +1,8 @@
 /* eslint-disable @typescript-eslint/no-empty-function */
 
-import { readdirSync, readFileSync } from 'fs'
-import { basename, resolve } from 'path'
-import { parseDocument } from 'yaml'
+import { readdirSync, readFileSync } from 'node:fs'
+import { basename, resolve } from 'node:path'
+import { parseDocument } from '../src/index.ts'
 
 const skip = [
   // Maximum call stack size exceeded

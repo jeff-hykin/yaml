@@ -1,4 +1,4 @@
-import { Composer, Document, Parser, parseDocument } from 'yaml'
+import { Composer, Document, Parser, parseDocument } from '../src/index.ts'
 
 const src = `
 #c0\n \n

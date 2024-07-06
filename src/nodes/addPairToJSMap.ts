@@ -1,10 +1,10 @@
-import { warn } from '../log.js'
-import { createStringifyContext } from '../stringify/stringify.js'
-import { isAlias, isMap, isNode, isScalar, isSeq } from './identity.js'
-import type { Pair } from './Pair.js'
-import { Scalar } from './Scalar.js'
-import { toJS, ToJSContext } from './toJS.js'
-import type { MapLike } from './YAMLMap.js'
+import { warn } from "../log.ts" 
+import { createStringifyContext } from "../stringify/stringify.ts" 
+import { isAlias, isMap, isNode, isScalar, isSeq } from "./identity.ts" 
+import type { Pair } from "./Pair.ts" 
+import { Scalar } from "./Scalar.ts" 
+import { toJS, ToJSContext } from "./toJS.ts" 
+import type { MapLike } from "./YAMLMap.ts" 
 
 const MERGE_KEY = '<<'
 

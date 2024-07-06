@@ -1,3 +1,5 @@
+import process from "node:process"
+
 export type LogLevelId = 'silent' | 'error' | 'warn' | 'debug'
 
 export function debug(logLevel: LogLevelId, ...messages: any[]) {

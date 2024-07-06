@@ -1,4 +1,4 @@
-import { CST, Lexer } from 'yaml'
+import { CST, Lexer } from '../src/index.ts'
 
 const { DOCUMENT: DOC, SCALAR } = CST
 

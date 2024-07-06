@@ -1,5 +1,5 @@
-import * as YAML from 'yaml'
-import { YAMLError } from 'yaml'
+import * as YAML from '../../src/index.ts'
+import { YAMLError } from '../../src/index.ts'
 
 const collectionKeyWarning =
   /^Keys with collection values will be stringified due to JS Object restrictions/

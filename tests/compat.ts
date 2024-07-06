@@ -1,4 +1,4 @@
-import { parseDocument, stringify } from 'yaml'
+import { parseDocument, stringify } from '../src/index.ts'
 
 describe('composer compatibility warnings', () => {
   test('disabled by default', () => {
